@@ -17,7 +17,7 @@ void draw()
   background(0,255,255);
   ocean();
   build();
-  love();
+  //love();
   Wasabi();
   
    
@@ -71,10 +71,10 @@ void Wasabi() {
   }
 }
 
-void love() {
-  int endX = startX;
-  System.out.println(endX);
-  int endY = startY;
-  stroke((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
-  line(startX,startY,endX,endY);
-}
+//void love() {
+ // int endX = startX;
+ // System.out.println(endX);
+  //int endY = startY;
+ // stroke((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
+ // line(startX,startY,endX,endY);
+//}
